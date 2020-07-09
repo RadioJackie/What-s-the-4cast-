@@ -17,21 +17,27 @@
     <header>
         <h1>What's The 4-Cast?</h1>
     </header>
-    <div class="container content">
+    <div class="container">
         <div class="row">
-            <div class="col-12 col-md-4 cities">
-            <div class="input" >
-                <input type="text" class="inputValue" placeholder="Enter a City">
-                <input type="submit" value="Submit" class="button">
+            <span class="border border-dark" id="border">
+                <div class="col-12 col-md-4">
+                    <div class="input">
+                        <input type="text" class="inputValue" placeholder="Enter a City">
+                        <button type="submit" class="btn btn-primary">Submit</button> </div>
+                </div>
+            </span>
+            <div class="col-12 col-md-6 results">
+                    <span class="border border-dark" id="border">
+                        <div id="currentWeather">
+                            <p class="currentWeatherText">Temperature: <span id="tempSpan"></span></p>
+                            <p class="currentWeatherText">Humidity: <span id="humiditySpan"></span></p>
+                            <p class="currentWeatherText">Wind Speed: <span id="windSpan"></span></p>
+                            <p class="currentWeatherText">UV Index: <span id="uvSpan"></span></p>
+                        </div>
+                    </span>
+                </div>
             </div>
         </div>
-        <div class="display">
-            <h2 class="name">
-                </h1>
-                <p class="description"></p>
-                <p class="temp"></p>
-        </div>
-    </div>
 
 
     </div>
