@@ -1,44 +1,4 @@
-*{
- margin: 0;
- padding: 0;
- box-sizing: border-box;   
-}
 
-body{
-    font-family: 'Times New Roman', Times, serif;
-}
-
-.input{
-    text-align: center;
-    margin: 100px 0;
-}
-
-input[type="text"]{
-    height: 50px;
-    width: 125px;
-    background: #e7e7e7;
-    font-family: 'Times New Roman', Times, serif;
-    font-weight: bold;
-    font-size: 20px;
-    border: none;
-    border-radius: 2px;
-    padding: 0px 10px;
-}
-
-input[type="submit"]{
-    height: 50px;
-    width: 75px;
-    background: #e7e7e7;
-    font-family: 'Times New Roman', Times, serif;
-    font-weight: bold;
-    font-size: 20px;
-    border: none;
-    border-radius: 2px;
-}
-
-.display{
-    text-align: center;
-}
 
 h1{
     text-align: center;
@@ -46,7 +6,3 @@ h1{
     color: whitesmoke;
 }
 
-.border{
-    border-top-left-radius: 10px;
-    border-top-right-radius: 10px;
-}
